@@ -18,4 +18,4 @@ with open("followees.txt", "w+") as f:
         file = f.write(followees.username + "\n")
 
 # confirmation
-print(f"All the people that {account} follows has been uploaded to followees.txt")
+print(f"All the people that {account} follows have been uploaded to followees.txt")
